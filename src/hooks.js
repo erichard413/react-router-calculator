@@ -1,16 +1,16 @@
-import React from 'react';
+
 
 const doMath = (num1, num2, operation) => {
-    if (operation == 'add') {
+    if (operation === 'add') {
         return +num1 + +num2
     }
-    if (operation == 'subtract') {
+    if (operation === 'subtract') {
         return +num1 - +num2
     }
-    if (operation == 'multiply') {
+    if (operation === 'multiply') {
         return +num1 * +num2
     }
-    if (operation == 'divide') {
+    if (operation === 'divide') {
         return +num1 / +num2
     }
 }
